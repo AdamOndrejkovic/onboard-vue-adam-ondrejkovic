@@ -17,7 +17,7 @@
         Unselected: {{unselected}}
         <hr>
       </div>
-      <div class="pt-3 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 gap-3">
+      <div class="pt-3 grid grid-cols-1 md:grid-cols-2  xl:grid-cols-4 lg:grid-cols-3 gap-3">
         <!--      Loop through data and for each user create a card-->
         <UserCard v-for="user in filteredUser" :key="user.id" @changeSelectionCounter="changeSelectionCounter($event)"
                   :name="user.username"
